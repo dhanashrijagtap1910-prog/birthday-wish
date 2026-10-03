@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday My Kuchupuchu ❤️</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3, #ffd1dc);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .card {
+            width: 80%;
+            max-width: 650px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+            animation: appear 1.5s ease;
+            position: relative;
+            z-index: 2;
+        }
+
+        .heart {
+            font-size: 65px;
+            animation: heartbeat 1.2s infinite;
+        }
+
+        h1 {
+            color: #ff3f6c;
+            font-size: 42px;
+            margin: 10px 0;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .highlight {
+            color: #ff3f6c;
+            font-weight: bold;
+        }
+
+        .special {
+            color: #ff3f6c;
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 13px 28px;
+            border: none;
+            border-radius: 30px;
+            background: #ff3f6c;
+            color: white;
+            font-size: 17px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #e62955;
+            transform: scale(1.08);
+        }
+
+        #surprise {
+            display: none;
+            margin-top: 25px;
+            color: #ff3f6c;
+            font-size: 20px;
+            font-weight: bold;
+            animation: appear 1s ease;
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .balloon {
+            position: absolute;
+            font-size: 50px;
+            animation: float 5s infinite ease-in-out;
+        }
+
+        .balloon1 {
+            left: 5%;
+            top: 10%;
+        }
+
+        .balloon2 {
+            right: 5%;
+            top: 15%;
+            animation-delay: 1s;
+        }
+
+        .balloon3 {
+            left: 8%;
+            bottom: 10%;
+            animation-delay: 2s;
+        }
+
+        .balloon4 {
+            right: 8%;
+            bottom: 8%;
+            animation-delay: 3s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-30px);
+            }
+        }
+
+        .sparkle {
+            color: #ff3f6c;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Balloons -->
+    <div class="balloon balloon1">🎈</div>
+    <div class="balloon balloon2">🎈</div>
+    <div class="balloon balloon3">🎈</div>
+    <div class="balloon balloon4">🎈</div>
+
+    <div class="card">
+
+        <div class="heart">❤️</div>
+
+        <h1>Happy Birthday!</h1>
+
+        <h2>My Kuchupuchu 🥰💕</h2>
+
+        <p class="special">
+            🎂 Happy Birthday to the most special person! 🎂
+        </p>
+
+        <p>
+            Today is not just another day...
+            <br>
+            It's the day someone incredibly special came into this world. ❤️
+        </p>
+
+        <p>
+            <span class="highlight">
+                Happy Birthday, My Kuchupuchu! 💕
+            </span>
+        </p>
+
+        <p>
+            You bring so much happiness, warmth and beautiful moments
+            into my life. Your smile can make even an ordinary day
+            feel extraordinary. 😊❤️
+        </p>
+
+        <p>
+            On your special day, I wish you a life filled with
+            <span class="highlight">
+                happiness, success, love, laughter and endless beautiful memories.
+            </span>
+        </p>
+
+        <p>
+            May all your dreams come true,
+            may you always keep smiling,
+            and may every new chapter of your life be
+            more beautiful than the last. ✨
+        </p>
+
+        <p>
+            Thank you for being such a wonderful part of my life.
+            Never forget how special and precious you are. ❤️
+        </p>
+
+        <p class="special">
+            🎉 Happy Birthday, My Kuchupuchu! 🎉
+            <br>
+            🎂🥳❤️✨
+        </p>
+
+        <button onclick="showSurprise()">
+            Click for a Special Surprise 🎁
+        </button>
+
+        <div id="surprise">
+            ❤️ You are truly one of the most precious people in my life. ❤️
+            <br><br>
+            No matter where life takes us,
+            I hope you always keep that beautiful smile. 🥰
+            <br><br>
+            Lots of happiness, lots of love,
+            and lots of Kuchupuchu moments! 💕
+            <br><br>
+            🎂 HAPPY BIRTHDAY ONCE AGAIN! 🎂
+        </div>
+
+        <p class="sparkle">
+            ✨ ❤️ ✨ ❤️ ✨
+        </p>
+
+    </div>
+
+    <script>
+        function showSurprise() {
+            document.getElementById("surprise").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
